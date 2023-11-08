@@ -19,6 +19,11 @@ function GoalsCard() {
       description: "A surgical unit for immediate and on-going surgeries."
       // Add more properties as needed
     },
+    {
+      title: "Mobile Unit",
+      description: "A mobile treatment unit for on-spot medical attention."
+      // Add more properties as needed
+    }
     // ... Add more goals as needed
   ];
 

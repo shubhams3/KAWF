@@ -7,6 +7,9 @@ import CoFounders from './CoFounders.js';
 import ActionTokens from './ActionTokens.js';
 import BlogLinks from './BlogLinks.js';
 import GoalsCard from './GoalsCard.js';
+import PartnerNetwork from './PartnerNetwork.js';
+import AboutCoFounder from './AboutCoFounder.js';
+import WhyDonate from './WhyDonate.js';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
       <ActionTokens />
       <BlogLinks />
       <GoalsCard />
+      <PartnerNetwork />
+      <WhyDonate />
+      <AboutCoFounder />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

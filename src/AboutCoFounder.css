@@ -1,0 +1,35 @@
+/* AboutCoFounder.css */
+.about-co-founder-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .about-co-founder-card {
+    width: 300px; /* Or your preferred width */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .co-founder-image {
+    width: 80%; /* Make the image expand to cover the card width */
+    height: auto; /* Maintain aspect ratio */
+    border-top-left-radius: 10px; /* Match the border radius of the card */
+    border-top-right-radius: 10px;
+  }
+  
+  .co-founder-info {
+    padding: 10px;
+  }
+  
+  .co-founder-info a {
+    color: #007bff; /* Theme color for links */
+    text-decoration: none; /* Optional: Removes underline from links */
+  }
+  
+  /* Additional responsive adjustments as needed */
+  

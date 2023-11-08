@@ -1,0 +1,28 @@
+/* WhyDonate.css */
+.why-donate-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .why-donate-card {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 800px; /* Set a max-width for larger screens */
+    margin: auto; /* Center the card */
+    padding: 20px;
+    background-color: #fff; /* Card background color */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* A subtle shadow */
+    text-align: left; /* Align text to the left inside the card */
+  }
+  
+  /* Additional styles for headings and paragraphs inside the card */
+  .why-donate-card h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px;
+  }
+  
+  .why-donate-card p {
+    margin-bottom: 20px;
+  }
+  
