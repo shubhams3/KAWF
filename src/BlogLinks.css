@@ -1,0 +1,81 @@
+/* BlogLinks.css */
+.blog-links-container {
+    text-align: center;
+    background: #f9f9f9; /* Light grey background */
+    padding: 40px 20px;
+  }
+  
+  .blog-links-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .blog-links-container p {
+    margin-bottom: 30px;
+  }
+  
+  .blog-cards-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .blog-card {
+    width: 30%; /* Adjust the card width */
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 500px; /* Fixed width for each card */
+    margin: 10px; /* Fixed margin */
+  }
+  
+  .blog-card img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .blog-card h3 {
+    color: #333;
+  }
+  
+  .blog-card p {
+    font-size: 0.9rem;
+  }
+  
+  .progress-bar {
+    background: #ddd;
+    height: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .progress {
+    background: #ffc107; /* Yellow progress bar */
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .see-all-button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Adjust button color*/
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 900px) {
+    .blog-cards-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .blog-card {
+      width: 80%; /* Or some other fixed width appropriate for smaller screens */
+      margin-bottom: 20px;
+    }
+  }
+  
+  

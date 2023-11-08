@@ -1,0 +1,50 @@
+/* AboutUs.css */
+.about-us {
+    background-color: rgba(178, 157, 120, 0.753); /* Light grey background */
+    color: #333; /* Dark grey text */
+    padding: 40px; /* Spacing around the content */
+    width: 100%; /* Spread across the entire screen width */
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  .about-us h2 {
+    text-align: center; /* Align the heading to the left */
+    font-size: 40px;
+    color: rgba(38, 19, 6, 0.5); /* color for the heading */
+    margin-bottom: 20px; /* Spacing after the heading */
+  }
+  
+  .about-us p {
+    line-height: 1.6; /* Spacing between lines of text */
+    margin-bottom: 16px; /* Spacing after each paragraph */
+    font-size: 20px;
+    justify-content: center;
+  }
+  
+  .about-us h3 {
+    margin-top: 30px; /* Add space before the Challenges section */
+    font-size:28px;
+    color:#333;
+  }
+  
+  .about-us ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+  }
+  
+  .about-us li {
+    padding-left: 30px; /* Space for the bullet image */
+    margin-bottom: 10px; /* Space between list items */
+    font-size: 20px;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .about-us{
+        padding:20px;
+    }
+    .about-us h2{
+        font-size: 1.5rem;
+    }
+  }
+   

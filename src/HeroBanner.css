@@ -1,0 +1,93 @@
+    /* HeroBanner.css */
+  .hero-banner {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; /* Ensure the image does not repeat */
+        color: white;
+        text-align: center;
+        height: 500px; /* Adjust the height as needed */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      
+    .hero-content {
+        width: 100%; /* Fill the width of the hero-banner */
+        height: 100%; /* Fill the height of the hero-banner */
+        padding: 20px;
+        box-sizing: border-box; /* Include padding in the width and height */
+        background: rgba(130, 118, 108, 0.5); /* Semi-transparent background */
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden; /* Prevent content from overflowing */
+    }      
+  
+  .hero-banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  
+  .hero-banner p {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 30px; /* Space between buttons */
+    justify-content: center;
+    margin-bottom: 1em;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+  
+  .hero-buttons button {
+    padding: 10px 22px;
+    font-size: 1.3em;
+    color: white;
+    background-color: #ff0073; /* Bootstrap primary color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-buttons button:hover {
+    background-color: #007ab3;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero-banner h1 {
+      font-size: 2em;
+    }
+  
+    .hero-banner p {
+      font-size: 1em;
+    }
+  
+    .hero-content {
+      padding: 10px;
+    }
+  
+    .hero-buttons button {
+      padding: 5px 10px;
+      font-size: 0.8em;
+    }
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  
