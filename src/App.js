@@ -10,6 +10,8 @@ import GoalsCard from './GoalsCard.js';
 import PartnerNetwork from './PartnerNetwork.js';
 import AboutCoFounder from './AboutCoFounder.js';
 import WhyDonate from './WhyDonate.js';
+import Wishlist from './Wishlist.js';
+import ContactUs from './ContactUs.js';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <PartnerNetwork />
       <WhyDonate />
       <AboutCoFounder />
+      <Wishlist />
+      <ContactUs />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
