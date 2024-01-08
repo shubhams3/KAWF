@@ -1,0 +1,32 @@
+/* HeroQuote.css */
+.hero-quote {
+    background-color: #f8f9fa;
+    padding: 8rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  .hero-quote p {
+    margin-bottom: 7px;
+    font-size: 2.3rem; 
+    color: #333; 
+
+  }
+  
+  .hero-quote p:last-child {
+    margin-top: 0.8rem;
+    font-size: 1.8rem;
+    color: #666; /* Lighter grey color for the author's name */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .hero-quote p {
+      font-size: 1rem;
+    }
+  
+    .hero-quote p:last-child {
+      font-size: 0.875rem;
+    }
+  }
+  

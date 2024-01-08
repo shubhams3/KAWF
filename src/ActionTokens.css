@@ -1,0 +1,46 @@
+/* Tokens.css */
+.tokens-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f9f9f9; /* Light grey background */
+  }
+  
+  .token {
+    text-align: center;
+    flex-basis: 30%; /* Each token will take roughly one third of the container width */
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .token h3 {
+    margin-top: 10px;
+    font-size: 29px;
+  }
+  
+  .token p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+  
+  /* Icons styles */
+  .token span {
+    font-size: 3rem; /* Size of the emoji icons */
+    display: block; /* Icons take their own line */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .tokens-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .token {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
